@@ -21,7 +21,7 @@ public class OpenApiConfig {
                         .version("1.0.0")
                         .description("A REST API that automatically generates C# code for Visual Studio")
                         .contact(new Contact()
-                                .name("RecruiterProof")
-                                .url("https://recruiterproof.com")));
+                                .name("Gaetano Cerciello")
+                                .url("https://github.com/GaetanoCerciello/CodeGenerator")));
     }
 }

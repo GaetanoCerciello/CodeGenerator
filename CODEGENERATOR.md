@@ -237,7 +237,11 @@ This project is provided as-is for educational and commercial use.
 
 ## 🤝 Support
 
-For issues, questions, or feature requests, please contact RecruiterProof.
+For issues, questions, or feature requests, please open an issue on GitHub.
+
+## 👤 Author
+
+**Gaetano Cerciello**
 
 ---
 

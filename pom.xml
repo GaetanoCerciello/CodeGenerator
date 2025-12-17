@@ -13,12 +13,17 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>codegenerator</name>
 	<description>Java REST API that automatically generates C# code for Visual Studio, featuring Swagger documentation and an advanced modular structure.</description>
-	<url/>
+	<url>https://github.com/GaetanoCerciello/CodeGenerator</url>
 	<licenses>
-		<license/>
+		<license>
+			<name>MIT License</name>
+		</license>
 	</licenses>
 	<developers>
-		<developer/>
+		<developer>
+			<name>Gaetano Cerciello</name>
+			<email>cerciello980@gmail.com</email>
+		</developer>
 	</developers>
 	<scm>
 		<connection/>
