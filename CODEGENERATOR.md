@@ -241,7 +241,7 @@ For issues, questions, or feature requests, please open an issue on GitHub.
 
 ## 👤 Author
 
-**Gaetano Cerciello**
+**Gaetano Cerciello** - Developer & Author
 
 ---
 

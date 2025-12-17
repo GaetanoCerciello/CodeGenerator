@@ -23,6 +23,10 @@
 		<developer>
 			<name>Gaetano Cerciello</name>
 			<email>cerciello980@gmail.com</email>
+			<roles>
+				<role>Developer</role>
+				<role>Author</role>
+			</roles>
 		</developer>
 	</developers>
 	<scm>
