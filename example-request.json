@@ -1,0 +1,12 @@
+{
+  "className": "User",
+  "properties": {
+    "id": "int",
+    "name": "string",
+    "email": "string",
+    "isActive": "bool",
+    "createdAt": "DateTime"
+  },
+  "namespace": "MyApp.Models",
+  "zip": false
+}

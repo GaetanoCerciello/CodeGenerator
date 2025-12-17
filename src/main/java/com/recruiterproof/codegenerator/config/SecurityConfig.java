@@ -1,0 +1,28 @@
+package com.recruiterproof.codegenerator.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.security.config.annotation.web.builders.HttpSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
+import org.springframework.security.web.SecurityFilterChain;
+
+/**
+ * Security configuration for development and testing.
+ * In production, implement proper authentication (OAuth2, JWT, etc.)
+ */
+@Configuration
+@EnableWebSecurity
+public class SecurityConfig {
+
+    @Bean
+    public SecurityFilterChain filterChain(HttpSecurity http) throws Exception {
+        http
+            .csrf(csrf -> csrf.disable())
+            .authorizeHttpRequests(authz -> authz
+                .requestMatchers("/", "/index.html", "/swagger-ui.html", "/swagger-ui/**", "/v3/api-docs/**").permitAll()
+                .requestMatchers("/api/**").permitAll()
+                .anyRequest().permitAll()
+            );
+        return http.build();
+    }
+}
